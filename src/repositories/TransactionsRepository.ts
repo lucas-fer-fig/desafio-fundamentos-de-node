@@ -56,7 +56,7 @@ class TransactionsRepository {
     if (extract >= 0) {
       total = extract;
     } else {
-      throw Error('Deuu erro!');
+      throw Error('Deu ruim!');
     }
 
     this.balance = {
